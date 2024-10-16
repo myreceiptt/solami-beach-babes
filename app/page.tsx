@@ -13,7 +13,7 @@ export default function Home() {
       />
 
       {/* Header */}
-      <header className="flex items-center justify-center relative z-10">
+      <header className="flex flex-col items-center justify-center relative z-10">
         <Link href="/">
           {" "}
           {/* Make the logo clickable */}
@@ -22,17 +22,29 @@ export default function Home() {
             alt="Solami Logo"
             width={63} // Adjusted width
             height={63} // Adjusted height
-            className="rounded-full w-[5vw] h-[5vw] mt-[2vh] transition-transform duration-300 ease-in-out transform hover:scale-110" // Add hover effect
+            className="rounded-full w-[4vw] h-[4vw] mt-[1vh] sm:mt-[2vh] transition-transform duration-300 ease-in-out transform hover:scale-110" // Add hover effect
           />
         </Link>
+        <Image
+          src="/solami-beach-babes.png" // Title Logo file name
+          alt="Solami Title Logo"
+          width={2000} // Adjusted width
+          height={1495} // Adjusted height
+          className="w-[90vw] mt-[1vh] sm:mt-[2vh]"
+        />
       </header>
 
       {/* Main Content */}
       <main className="flex-grow flex items-center justify-center relative z-10">
-        <div className="h-[784px] border-2 border-black">
+        <div className="h-[720px] border-2 border-black">
           {/* You can add your main content here */}
         </div>
-        <p className="text-white text-lg">Welcome to Solami Beach Babes!</p>
+        <p className="text-white text-lg">
+          Welcome to <span className="text-amber-500">Solami Beach Babes</span>.
+          Where the sun is always shining and everyone needs an oily rubdown.
+          Put a few babes in your wallet and enjoy games, customization,
+          tokenomics, random airdrops, and full frontal degeneracy.
+        </p>
       </main>
 
       {/* Footer */}
