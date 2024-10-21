@@ -11,6 +11,17 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        bobacolor: "#ad0082",
+      },
+      fontFamily: {
+        australian: ["Australian", "sans-serif"],
+        bobaland: ["Bobaland", "sans-serif"],
+        geistMono: ["Geist Mono", "monospace"],
+        geistSans: ["Geist", "sans-serif"],
+        impact: ["Impact", "sans-serif"],
+      },
+      screens: {
+        xs: "512px", // Custom breakpoint for xs
       },
     },
   },

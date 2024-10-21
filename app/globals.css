@@ -1,3 +1,38 @@
+@font-face {
+  font-family: "Australian";
+  src: url("./fonts/australian.otf") format("opentype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bobaland";
+  src: url("./fonts/bobaland.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  src: url("./fonts/GeistMonoVF.woff") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geist";
+  src: url("./fonts/GeistVF.woff") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Impact";
+  src: url("./fonts/impact.ttf") format("opentype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -24,4 +59,30 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* Solami Background */
+.bg-solami-bg-1 {
+  background-image: url("/solami-background-1.png");
+}
+
+.bg-solami-bg-2 {
+  background-image: url("/solami-background-2.png");
+}
+
+.bg-solami-bg-3 {
+  background-image: url("/solami-background-3.png");
+}
+
+.bg-solami-bg-4 {
+  background-image: url("/solami-background-4.png");
+}
+
+/* Hover Scale */
+.hover-scale {
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover-scale:hover {
+  transform: scale(1.1);
 }
