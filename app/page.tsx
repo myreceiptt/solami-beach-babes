@@ -5,14 +5,14 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-bobacolor relative flex flex-col">
       {/* Full-width background 1 image */}
-      <div className="w-full h-full bg-cover bg-top absolute inset-0 bg-solami-bg-1" />
+      <div className="w-full h-full bg-cover bg-top absolute inset-0 bg-solami-bg" />
 
       {/* Main Content */}
-      <main className="flex-grow flex flex-col items-center justify-start relative z-10 my-[2vh] sm:my-[3vh] md:my-[4vh] lg:my-[5vh] space-y-[5vh]">
+      <main className="flex-grow flex flex-col items-center justify-start relative z-10 m-[2vh] sm:m-[3vh] md:m-[4vh] lg:m-[5vh] space-y-[5vh]">
         {/* Header Section */}
         <header
           id="header"
-          className="flex flex-col items-center justify-center mt-[1vh] sm:mt-[2vh] md:mt-[3vh] lg:mt-[4vh]"
+          className="w-full flex flex-row sm:flex-col items-center justify-center"
         >
           <Link href="/">
             {" "}
@@ -20,10 +20,10 @@ export default function Home() {
             <Image
               priority
               src="/solami-logo.png" // Logo file name
-              alt="Solami Logo"
+              alt="This is Logo of Solami Beach Babes"
               width={63} // Adjusted width
               height={63} // Adjusted height
-              className="rounded-full w-[4vw] hover-scale" // Add hover effect
+              className="rounded-full w-[5vw] hover-scale" // Add hover effect
             />
           </Link>
         </header>
@@ -36,7 +36,7 @@ export default function Home() {
           <Image
             priority
             src="/solami-beach-babes.png" // Title Logo file name
-            alt="Solami Beach Babes Title Logo"
+            alt="This is Title Logo of Solami Beach Babes"
             width={2000} // Adjusted width
             height={1495} // Adjusted height
             className="w-[100vw] mt-[1vh] sm:mt-[2vh] md:mt-[3vh] lg:mt-[4vh]"
@@ -70,7 +70,7 @@ export default function Home() {
               {/* Profile Image on the left */}
               <Image
                 src="/hamms-founder.jpg" // Replace with actual image path
-                alt="Team Member 1 - Hamms - Founder"
+                alt="This is Team Member #1 - Hamms - Founder"
                 width={225}
                 height={225}
                 className="rounded-full w-[13vw] sm:w-[12vw] md:w-[11vw] lg:w-[10vw] mr-1 md:mr-2 lg:mr-3 border-2 lg:border-3 xl:border-4 border-white hover-scale"
@@ -112,7 +112,7 @@ export default function Home() {
               {/* Profile Image on the right */}
               <Image
                 src="/coldheart-co-founder.png" // Replace with actual image path
-                alt="Team Member 2 - Coldheart - Co-Founder"
+                alt="This is Team Member #2 - Coldheart - Co-Founder"
                 width={225}
                 height={225}
                 className="rounded-full w-[13vw] sm:w-[12vw] md:w-[11vw] lg:w-[10vw] ml-1 md:ml-2 lg:ml-3 border-2 lg:border-3 xl:border-4 border-white hover-scale"
@@ -124,7 +124,7 @@ export default function Home() {
               {/* Profile Image on the left */}
               <Image
                 src="/fauzanbunz-artist.png" // Replace with actual image path
-                alt="Team Member 3 - Fauzanbunz - Lead Artist - Co-Founder"
+                alt="This is Team Member #3 - Fauzanbunz - Lead Artist - Co-Founder"
                 width={225}
                 height={225}
                 className="rounded-full w-[13vw] sm:w-[12vw] md:w-[11vw] lg:w-[10vw] mr-1 md:mr-2 lg:mr-3 border-2 lg:border-3 xl:border-4 border-white hover-scale"
@@ -166,7 +166,7 @@ export default function Home() {
               {/* Profile Image on the right */}
               <Image
                 src="/professor-nota-developer.png" // Replace with actual image path
-                alt="Team Member 4 - Prof. NOTA - Developer - Co-Founder"
+                alt="This is Team Member #4 - Prof. NOTA - Developer - Co-Founder"
                 width={225}
                 height={225}
                 className="rounded-full w-[13vw] sm:w-[12vw] md:w-[11vw] lg:w-[10vw] ml-1 md:ml-2 lg:ml-3 border-2 lg:border-3 xl:border-4 border-white hover-scale"
@@ -224,7 +224,7 @@ export default function Home() {
           >
             <Image
               src="/twitter-logo.png" // Twitter logo file name
-              alt="Twitter Logo"
+              alt="Visit Solami Beach Babes on Twitter"
               width={139} // Adjust as needed
               height={126} // Adjust as needed
               className="rounded-full w-[6vw] mx-[4vw] mr-[5vw] transition-transform duration-300 ease-in-out transform hover:scale-110" // Add hover effect
@@ -249,7 +249,7 @@ export default function Home() {
           >
             <Image
               src="/discord-logo.png" // Discord logo file name
-              alt="Discord Logo"
+              alt="Join Solami Beach Babes on Discord Server"
               width={123} // Adjust as needed
               height={114} // Adjust as needed
               className="rounded-full w-[6vw] mx-[4vw] ml-[5vw] transition-transform duration-300 ease-in-out transform hover:scale-110" // Add hover effect

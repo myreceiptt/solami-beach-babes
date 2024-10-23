@@ -62,6 +62,10 @@ body {
 }
 
 /* Solami Background */
+.bg-solami-bg {
+  background-image: url("/solami-background.png");
+}
+
 .bg-solami-bg-1 {
   background-image: url("/solami-background-1.png");
 }
