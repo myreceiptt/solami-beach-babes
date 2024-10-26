@@ -1,5 +1,5 @@
-import Image from "next/image"; // Import Image from Next.js
-import Link from "next/link"; // Import Link from Next.js
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
