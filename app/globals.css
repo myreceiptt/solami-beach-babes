@@ -63,15 +63,30 @@ body {
 
 /* Solami Background */
 .bg-solami-bg-0 {
-  background-image: url("/solami-background-0.png");
-  background-size: cover;
-  background-position: top;
+  background-image: url("/solami-background-0.png"),
+    url("/solami-background-1.png");
+  background-size: 100%, 100%;
+  background-position: top, bottom;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.bg-left-image {
+  background-image: url("/left-ornament.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.bg-right-image {
+  background-image: url("/right-ornament.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .bg-solami-bg-bra {
   background-image: url("/nft-collections-bra.png");
   background-size: cover;
   background-position: top;
+  background-repeat: no-repeat;
 }
 
 .bg-solami-bg-melt {
@@ -85,6 +100,7 @@ body {
   background-image: url("/bottom-footer-wave.png");
   background-size: cover;
   background-position: bottom;
+  background-repeat: no-repeat;
 }
 
 /* Hover Scale */
