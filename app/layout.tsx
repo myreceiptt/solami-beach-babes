@@ -15,7 +15,7 @@ export const metadata: Metadata = {
       "Welcome to Solami Beach Babes. Where the sun is always shining and everyone needs an oily rubdown. Put a few babes in your wallet and enjoy games, customization, tokenomics, random airdrops, and full frontal degeneracy.",
     url: "https://solami.endhonesa.com",
     siteName: "Solami Beach Babes",
-    images: "/solami-beach-babes.png",
+    images: "/solami-preview-banner.png",
     locale: "en-US",
     type: "website",
   },
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     siteId: "1754164430424645634",
     creator: "@HammsNft",
     creatorId: "1441542915067559936",
-    images: ["https://solami.endhonesa.com/solami-beach-babes.png"],
+    images: ["https://solami.endhonesa.com/solami-preview-banner.png"],
   },
 };
 
