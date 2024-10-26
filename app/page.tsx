@@ -217,7 +217,7 @@ export default function Home() {
               Degen Mint <span className="text-bobacolor4">3,333ish</span> Babes
             </h3>
             <h4 className="text-black text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-none xs:leading-none sm:leading-none md:leading-none lg:leading-tight xl:leading-tight">
-              Get to Solami "Beach Island"
+              Get to Solami &quot;Beach Island&quot;
             </h4>
             <h4 className="text-black text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-none xs:leading-none sm:leading-none md:leading-none lg:leading-tight xl:leading-tight">
               Staking Website Up
@@ -242,7 +242,8 @@ export default function Home() {
               website.
             </p>
             <p className="text-black text-sm xs:text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-none xs:leading-tight sm:leading-tight mb-[2vw]">
-              Try not to piss away all the mint funds on booze and rug NFT's.
+              Try not to piss away all the mint funds on booze and rug
+              NFT&apos;s.
             </p>
             <p className="text-black text-sm xs:text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-none xs:leading-tight sm:leading-tight mb-[2vw]">
               <span className="text-bobacolor5">Airdrop</span> some genz rare
