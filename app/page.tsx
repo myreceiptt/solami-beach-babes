@@ -173,7 +173,7 @@ export default function Home() {
               {/* Name, Position, and Description on the left */}
               <div className="text-right">
                 <h3 className="text-bobacolor3 leading-3 sm:leading-3 md:leading-none lg:leading-none text-base sm:text-lg md:text-xl lg:text-3xl xl:text-5xl mb-1">
-                  Prof. NOTA
+                  NOTA v.11.0.8
                 </h3>
                 <h4 className="text-bobacolor3 text-sm sm:text-base md:text-lg lg:text-xl xl:text-3xl mb-2">
                   (Developer/Co-Founder)
@@ -186,13 +186,19 @@ export default function Home() {
                 </p>
               </div>
               {/* Profile Image on the right */}
-              <Image
-                src="/professor-nota-developer.png"
-                alt="This is Team Member #4 - Prof. NOTA v.11.0.8 - Developer - Co-Founder"
-                width={225}
-                height={225}
-                className="rounded-full w-[30vw] xs:w-[20vw] sm:w-[14vw] md:w-[13vw] lg:w-[15vw] ml-2 md:ml-3 lg:ml-4 border-4 lg:border-3 xl:border-4 border-white hover-scale"
-              />
+              <Link
+                href="https://x.com/MyReceiptTT"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src="/professor-nota-developer.png"
+                  alt="This is Team Member #4 - Prof. NOTA v.11.0.8 - Developer - Co-Founder"
+                  width={225}
+                  height={225}
+                  className="rounded-full w-[30vw] xs:w-[20vw] sm:w-[14vw] md:w-[13vw] lg:w-[15vw] ml-2 md:ml-3 lg:ml-4 border-4 lg:border-3 xl:border-4 border-white hover-scale"
+                />
+              </Link>
             </div>
           </div>
         </section>
@@ -202,8 +208,8 @@ export default function Home() {
           <Image
             src="/road-map-wood.png"
             alt="This is Roadmap Wood Sign"
-            width={1440}
-            height={740}
+            width={2000}
+            height={1029}
             className="w-full h-full mb-[2vw]"
           />
           <div className="flex flex-col items-center justify-center text-center px-[4vw] sm:px-[8vw] md:px-[12vw] lg:px-[16vw]">
