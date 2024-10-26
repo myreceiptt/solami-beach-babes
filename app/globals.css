@@ -62,24 +62,28 @@ body {
 }
 
 /* Solami Background */
-.bg-solami-bg {
-  background-image: url("/solami-background.png");
+.bg-solami-bg-0 {
+  background-image: url("/solami-background-0.png");
+  background-size: cover;
+  background-position: top;
 }
 
-.bg-solami-bg-1 {
-  background-image: url("/solami-background-1.png");
+.bg-solami-bg-bra {
+  background-image: url("/nft-collections-bra.png");
+  background-size: cover;
+  background-position: top;
 }
 
-.bg-solami-bg-2 {
-  background-image: url("/solami-background-2.png");
+.bg-solami-bg-melt {
+  background-image: url("/game-green-melting.png");
+  background-size: cover;
+  background-position: bottom;
 }
 
-.bg-solami-bg-3 {
-  background-image: url("/solami-background-3.png");
-}
-
-.bg-solami-bg-4 {
-  background-image: url("/solami-background-4.png");
+.bg-solami-bg-wave {
+  background-image: url("/bottom-footer-wave.png");
+  background-size: cover;
+  background-position: bottom;
 }
 
 /* Hover Scale */
