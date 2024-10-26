@@ -111,7 +111,7 @@ export default function Home() {
                     Crypto/NFT trader since 2018.
                   </p>
                   <p className="text-black text-xs sm:text-sm lg:text-base xl:text-2xl hover-scale">
-                    Enjoy degen mints and lots of laughs.
+                    Enjoys degen mints and lots of laughs.
                   </p>
                 </Link>
               </div>
