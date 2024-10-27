@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Header from "./components/header";
 import Roadmap from "./components/roadmap";
 import Footer from "./components/footer";
 
@@ -9,23 +10,7 @@ export default function Home() {
       {/* Main Content */}
       <main className="flex-grow flex flex-col items-center justify-start z-10 mt-[2vw] xs:mt-[3vw] md:mt-[4vw]">
         {/* Header Section */}
-        <header
-          id="header"
-          className="w-full flex flex-row sm:flex-col items-center justify-center"
-        >
-          <Link href="/">
-            {" "}
-            {/* Make the logo clickable */}
-            <Image
-              priority
-              src="/solami-logo.png"
-              alt="This is Logo of Solami Beach Babes"
-              width={63}
-              height={63}
-              className="rounded-full w-[5vw] hover-scale"
-            />
-          </Link>
-        </header>
+        <Header />
 
         {/* Title Logo Section */}
         <section
