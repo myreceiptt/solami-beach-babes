@@ -1,7 +1,6 @@
 import Image from "next/image"; // Import Image from Next.js
 import Link from "next/link"; // Import Link from Next.js
 import Roadmap from "../components/roadmap";
-import { ROOT_DIR_ALIAS } from "next/dist/lib/constants";
 
 export default function Island() {
   return (
