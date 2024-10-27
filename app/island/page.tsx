@@ -5,16 +5,7 @@ import Footer from "../components/footer";
 
 export default function Island() {
   return (
-    <div className="min-h-screen bg-bobacolor4 relative flex flex-col">
-      {/* Full-width background image */}
-      <div className="w-full absolute inset-0 bg-solami-bg-0" />
-
-      {/* Left Background Image */}
-      <div className="absolute inset-y-[45vw] left-0 w-[30vw] bg-left-image" />
-
-      {/* Right Background Image */}
-      <div className="absolute inset-y-[55vw] right-0 w-[40vw] bg-right-image" />
-
+    <>
       {/* Main Content */}
       <main className="flex-grow flex flex-col items-center justify-start z-10 mt-[2vw] xs:mt-[3vw] md:mt-[4vw]">
         {/* Header Section */}
@@ -53,10 +44,7 @@ export default function Island() {
         </section>
 
         {/* Description Section */}
-        <section
-          id="description"
-          className="w-full px-[4vw] sm:px-[6vw] md:px-[8vw] lg:px-[10vw] mb-[7vw]"
-        >
+        <section id="description" className="w-full px-[15vw] mb-[7vw]">
           <h1 className="text-center text-black text-base xs:text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-impact leading-5 xs:leading-6 sm:leading-7 md:leading-8 lg:leading-9 xl:leading-10">
             Soon <span className="text-bobacolor1">Solami Beach Island</span>{" "}
             will be opened.
@@ -81,6 +69,6 @@ export default function Island() {
         {/* Footer Section */}
         <Footer />
       </main>
-    </div>
+    </>
   );
 }
