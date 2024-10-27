@@ -1,5 +1,7 @@
 import Image from "next/image"; // Import Image from Next.js
 import Link from "next/link"; // Import Link from Next.js
+import Roadmap from "../components/roadmap";
+import { ROOT_DIR_ALIAS } from "next/dist/lib/constants";
 
 export default function Island() {
   return (
@@ -74,66 +76,7 @@ export default function Island() {
         </section>
 
         {/* Roadmap Section */}
-        <section id="roadmap" className="w-full -mt-[15vw] z-0">
-          <Image
-            src="/road-map-wood.png"
-            alt="This is Roadmap Wood Sign"
-            width={2000}
-            height={1029}
-            className="w-full h-full mb-[2vw]"
-          />
-          <div className="flex flex-col items-center justify-center text-center px-[4vw] sm:px-[8vw] md:px-[12vw] lg:px-[16vw]">
-            <h3 className="text-black text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-normal xs:leading-normal sm:leading-snug md:leading-snug lg:leading-relaxed xl:leading-relaxed">
-              Degen Mint <span className="text-bobacolor4">3,333ish</span> Babes
-            </h3>
-            <h4 className="text-black text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-none xs:leading-none sm:leading-none md:leading-none lg:leading-tight xl:leading-tight">
-              Get to Solami &quot;Beach Island&quot;
-            </h4>
-            <h4 className="text-black text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-none xs:leading-none sm:leading-none md:leading-none lg:leading-tight xl:leading-tight">
-              Staking Website Up
-            </h4>
-            <h4 className="text-black text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-none xs:leading-none sm:leading-none md:leading-none lg:leading-tight xl:leading-tight">
-              Running with Babe-Run
-            </h4>
-            <h4 className="text-black text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-none xs:leading-none sm:leading-none md:leading-none lg:leading-tight xl:leading-tight">
-              Boob Slap Mini Games
-            </h4>
-            <h4 className="text-black text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-none xs:leading-none sm:leading-none md:leading-none lg:leading-tight xl:leading-tight mb-[2vw]">
-              Staking for <span className="text-bobacolor5">$BABEJUICE</span>
-            </h4>
-            <p className="text-black text-sm xs:text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-none xs:leading-tight sm:leading-tight mb-[2vw]">
-              Get full trait online shop featuring all new and sexy traits to
-              spend <span className="text-bobacolor5">$BABEJUICE</span> on (some
-              may be <span className="text-bobacolor6">NSFW</span> &#128523;).
-            </p>
-            <p className="text-black text-sm xs:text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-none xs:leading-tight sm:leading-tight mb-[2vw]">
-              Get some <span className="text-bobacolor4">OnlyFan models</span>{" "}
-              to make some dumbass movies for us for marketing and on our
-              website.
-            </p>
-            <p className="text-black text-sm xs:text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-none xs:leading-tight sm:leading-tight mb-[2vw]">
-              Try not to piss away all the mint funds on booze and rug
-              NFT&apos;s.
-            </p>
-            <p className="text-black text-sm xs:text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-none xs:leading-tight sm:leading-tight mb-[2vw]">
-              <span className="text-bobacolor5">Airdrop</span> some genz rare
-              babes on big holders & lucky bozos.
-            </p>
-            <p className="text-black text-sm xs:text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-none xs:leading-tight sm:leading-tight mb-[2vw]">
-              Try and get Jaylene in our Discord so we can simp out to her
-              &#128516;.
-            </p>
-            <p className="text-black text-sm xs:text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-none xs:leading-tight sm:leading-tight mb-[2vw]">
-              Try not to implode when our typical Solami minters mint for{" "}
-              <span className="text-bobacolor6">0.04sol</span> and then panic
-              ell for <span className="text-bobacolor6">0.03sol</span> 4min
-              later.
-            </p>
-            <p className="text-black text-sm xs:text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-none xs:leading-tight sm:leading-tight mb-[2vw]">
-              Get Elon to take us to Mars in his SpaceShip.
-            </p>
-          </div>
-        </section>
+        <Roadmap />
 
         {/* Footer Section */}
         <footer id="footer" className="w-full">
