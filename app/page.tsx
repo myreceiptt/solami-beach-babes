@@ -52,7 +52,7 @@ export default function Home() {
         {/* Description Section */}
         <section
           id="description"
-          className="w-full px-[6vw] sm:px-[8vw] md:px-[10vw] lg:px-[12vw] mb-[7vw]"
+          className="w-full px-[7vw] sm:px-[9vw] md:px-[11vw] lg:px-[13vw] mb-[7vw]"
         >
           <h1 className="text-center text-black text-base xs:text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-impact leading-5 xs:leading-6 sm:leading-7 md:leading-8 lg:leading-9 xl:leading-10">
             Welcome to{" "}
