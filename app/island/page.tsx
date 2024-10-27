@@ -2,6 +2,8 @@ import Image from "next/image";
 import Header from "../components/header";
 import Roadmap from "../components/roadmap";
 import Nfts from "../components/nfts";
+import Games from "../components/games";
+import Token from "../components/token";
 import Footer from "../components/footer";
 
 export default function Island() {
@@ -53,6 +55,12 @@ export default function Island() {
 
         {/* NFTs Section */}
         <Nfts />
+
+        {/* Game Section */}
+        <Games />
+
+        {/* Token Section */}
+        <Token />
 
         {/* Footer Section */}
         <Footer />
