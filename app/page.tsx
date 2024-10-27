@@ -52,7 +52,7 @@ export default function Home() {
         {/* Description Section */}
         <section
           id="description"
-          className="w-full px-[4vw] sm:px-[6vw] md:px-[8vw] lg:px-[10vw] mb-[7vw]"
+          className="w-full px-[6vw] sm:px-[8vw] md:px-[10vw] lg:px-[12vw] mb-[7vw]"
         >
           <h1 className="text-center text-black text-base xs:text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-impact leading-5 xs:leading-6 sm:leading-7 md:leading-8 lg:leading-9 xl:leading-10">
             Welcome to{" "}
@@ -211,7 +211,7 @@ export default function Home() {
                     (Developer/Co-Founder)
                   </h4>
                   <p className="text-black text-xs sm:text-sm lg:text-base xl:text-lg hover-scale">
-                    Genius coder, and game designer.
+                    Genius coder and game designer.
                   </p>
                   <p className="text-black text-xs sm:text-sm lg:text-base xl:text-lg hover-scale">
                     The Boob-Run will be his legacy.
@@ -247,53 +247,53 @@ export default function Home() {
           />
           <div className="flex flex-col items-center justify-center text-center px-[4vw] sm:px-[8vw] md:px-[12vw] lg:px-[16vw]">
             <h3 className="text-black text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-normal xs:leading-normal sm:leading-snug md:leading-snug lg:leading-relaxed xl:leading-relaxed">
-              Degen Mint <span className="text-bobacolor4">3,333ish</span> Babes
+              Degen Mint: <span className="text-bobacolor4">3,333ish</span>{" "}
+              Babes
             </h3>
             <h4 className="text-black text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-none xs:leading-none sm:leading-none md:leading-none lg:leading-tight xl:leading-tight">
-              Get to Solami &quot;Beach Island&quot;
+              - Get to Solami &quot;Beach Island&quot;.
             </h4>
             <h4 className="text-black text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-none xs:leading-none sm:leading-none md:leading-none lg:leading-tight xl:leading-tight">
-              Staking Website Up
+              - Launch the staking website.
             </h4>
             <h4 className="text-black text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-none xs:leading-none sm:leading-none md:leading-none lg:leading-tight xl:leading-tight">
-              Running with Babe-Run
+              - Start running with Babe-Run.
             </h4>
             <h4 className="text-black text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-none xs:leading-none sm:leading-none md:leading-none lg:leading-tight xl:leading-tight">
-              Boob Slap Mini Games
+              - Introduce Boob Slap mini-games.
             </h4>
             <h4 className="text-black text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-none xs:leading-none sm:leading-none md:leading-none lg:leading-tight xl:leading-tight mb-[2vw]">
-              Staking for <span className="text-bobacolor5">$BABEJUICE</span>
+              - Stake for <span className="text-bobacolor5">$BABEJUICE</span>!
             </h4>
             <p className="text-black text-sm xs:text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-none xs:leading-tight sm:leading-tight mb-[2vw]">
-              Get full trait online shop featuring all new and sexy traits to
-              spend <span className="text-bobacolor5">$BABEJUICE</span> on (some
-              may be <span className="text-bobacolor6">NSFW</span> &#128523;).
+              Launch a full online shop featuring all-new, sexy traits to spend{" "}
+              <span className="text-bobacolor5">$BABEJUICE</span> on (some may
+              be <span className="text-bobacolor6">NSFW</span> &#128523;).
             </p>
             <p className="text-black text-sm xs:text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-none xs:leading-tight sm:leading-tight mb-[2vw]">
-              Get some <span className="text-bobacolor4">OnlyFan models</span>{" "}
-              to make some dumbass movies for us for marketing and on our
-              website.
+              Recruit some{" "}
+              <span className="text-bobacolor4">OnlyFan models</span> to create
+              silly marketing videos for our website.
             </p>
             <p className="text-black text-sm xs:text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-none xs:leading-tight sm:leading-tight mb-[2vw]">
-              Try not to piss away all the mint funds on booze and rug
-              NFT&apos;s.
+              Try not to blow all the mint funds on booze and rug NFTs.
             </p>
             <p className="text-black text-sm xs:text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-none xs:leading-tight sm:leading-tight mb-[2vw]">
-              <span className="text-bobacolor5">Airdrop</span> some genz rare
-              babes on big holders & lucky bozos.
+              <span className="text-bobacolor5">Airdrop</span> some Gen Z rare
+              babes to big holders and lucky bozos.
             </p>
             <p className="text-black text-sm xs:text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-none xs:leading-tight sm:leading-tight mb-[2vw]">
-              Try and get Jaylene in our Discord so we can simp out to her
+              Get Jaylene into our Discord so we can all simp for her.
               &#128516;.
             </p>
             <p className="text-black text-sm xs:text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-none xs:leading-tight sm:leading-tight mb-[2vw]">
               Try not to implode when our typical Solami minters mint for{" "}
-              <span className="text-bobacolor6">0.04sol</span> and then panic
-              ell for <span className="text-bobacolor6">0.03sol</span> 4min
-              later.
+              <span className="text-bobacolor6">0.04 SOL</span> and then
+              panic-sell for <span className="text-bobacolor6">0.03 SOL</span>{" "}
+              four minutes later.
             </p>
             <p className="text-black text-sm xs:text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-none xs:leading-tight sm:leading-tight mb-[2vw]">
-              Get Elon to take us to Mars in his SpaceShip.
+              Convince Elon to take us to Mars in his spaceship.
             </p>
           </div>
         </section>
@@ -393,7 +393,7 @@ export default function Home() {
               className="rounded-full w-[30vw]"
             />
             <h4 className="text-bobacolor10 text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center">
-              Used for buying new ourfits and legendary loot boxes containing
+              Used for buying new outfits and legendary loot boxes containing
               the rarest traits.
             </h4>
           </div>
