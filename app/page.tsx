@@ -178,7 +178,7 @@ export default function Home() {
               {/* Name, Position, and Description on the left */}
               <div className="text-right">
                 <Link
-                  href="https://nota.straight-line.org/profile/nota"
+                  href="https://nota.endhonesa.com/profile/nota"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
