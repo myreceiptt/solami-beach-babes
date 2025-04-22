@@ -70,6 +70,13 @@ body {
   background-repeat: no-repeat, no-repeat;
 }
 
+.bg-solami-bg-1 {
+  background-image: url("/solami-background-1.png");
+  background-size: 100%, 100%;
+  background-position: top, bottom;
+  background-repeat: no-repeat, no-repeat;
+}
+
 .bg-left-image {
   background-image: url("/left-ornament.png");
   background-size: 100%;

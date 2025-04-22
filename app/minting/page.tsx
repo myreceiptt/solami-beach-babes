@@ -9,6 +9,14 @@ import Footer from "../components/footer";
 export default function Minting() {
   return (
     <>
+      <div className="w-full absolute inset-0 bg-solami-bg-0" />
+
+      {/* Left Background Image */}
+      <div className="absolute inset-y-[45vw] left-0 w-[30vw] bg-left-image" />
+
+      {/* Right Background Image */}
+      <div className="absolute inset-y-[55vw] right-0 w-[40vw] bg-right-image" />
+
       {/* Main Content */}
       <main className="flex-grow flex flex-col items-center justify-start z-10 mt-[2vw] xs:mt-[3vw] md:mt-[4vw]">
         {/* Header Section */}
