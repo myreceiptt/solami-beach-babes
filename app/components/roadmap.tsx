@@ -12,7 +12,7 @@ export default function Roadmap() {
           height={1029}
           className="w-full h-full mb-[2vw]"
         />
-        <div className="flex flex-col items-center justify-center text-center px-[4vw] sm:px-[8vw] md:px-[12vw] lg:px-[16vw]">
+        <div className="flex flex-col items-center justify-center text-center px-[4vw] sm:px-[8vw] md:px-[12vw] lg:px-[16vw] font-bobaland">
           <h3 className="text-black text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-normal xs:leading-normal sm:leading-snug md:leading-snug lg:leading-relaxed xl:leading-relaxed">
             Degen Mint: <span className="text-bobacolor4">3,333ish</span> Babes
           </h3>

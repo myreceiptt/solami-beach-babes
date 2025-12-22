@@ -32,7 +32,7 @@ export default function Nfts() {
           </div>
           <div className="grid grid-cols-subgrid col-span-10 row-span-2">
             <div className="col-start-4 col-span-6 row-span-2">
-              <h2 className="text-bobacolor7 text-2xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-left">
+              <h2 className="text-bobacolor7 text-2xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-left font-bobaland">
                 Solami Beach Babes duh!
               </h2>
             </div>

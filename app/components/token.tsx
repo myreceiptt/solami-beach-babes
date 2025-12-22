@@ -33,7 +33,7 @@ export default function Token() {
             className="rounded-full w-[20vw] hover-scale"
           />
 
-          <h4 className="text-bobacolor10 text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center">
+          <h4 className="text-bobacolor10 text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center font-bobaland">
             Used for buying new outfits and legendary loot boxes containing the
             rarest traits.
           </h4>

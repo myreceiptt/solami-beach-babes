@@ -63,7 +63,7 @@ export default function Home() {
           </h2>
 
           {/* Grid container for 2 columns and 2 rows */}
-          <div className="grid grid-cols-1 xs:grid-cols-2 gap-y-[5vw] gap-x-1">
+          <div className="grid grid-cols-1 xs:grid-cols-2 gap-y-[5vw] gap-x-1 font-bobaland">
             {/* Team Member 1 */}
             <div className="flex items-start justify-start xs:justify-end">
               {/* Profile Image on the left */}
