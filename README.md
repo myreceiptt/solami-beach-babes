@@ -59,6 +59,10 @@ Examples:
 - Wallet connect must remain **disabled**
 - Any functional change requires a versioned successor (new tag/release)
 
+Known pinned security advisories (no non-breaking fix):
+- bigint-buffer via `@solana/spl-token`
+- node-fetch via `@solana/spl-token-registry`
+
 ---
 
 ---
