@@ -20,7 +20,7 @@ export default function Footer() {
               className="rounded-full w-[6vw] mx-[4vw] mr-[5vw] hover-scale"
             />
           </Link>
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col items-center justify-center font-bobaland">
             <Link href="/">
               <p className="text-bobacolor1 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl hover-scale">
                 Solami Beach Babes © 2024.

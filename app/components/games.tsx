@@ -24,7 +24,7 @@ export default function Games() {
               />
             </Link>
           </div>
-          <div className="mx-[5vw] sm:mx-0 sm:ml-[1vw] sm:mr-[5vw] mt-[5vw]">
+          <div className="mx-[5vw] sm:mx-0 sm:ml-[1vw] sm:mr-[5vw] mt-[5vw] font-bobaland">
             <h3 className="text-bobacolor9 text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-left mb-[5vw]">
               &lt;Games&gt;
             </h3>

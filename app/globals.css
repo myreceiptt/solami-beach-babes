@@ -1,3 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-bobacolor1: #ad0082;
+  --color-bobacolor2: #ff51ed;
+  --color-bobacolor3: #732daf;
+  --color-bobacolor4: #a800ff;
+  --color-bobacolor5: #00a569;
+  --color-bobacolor6: #ff00a8;
+  --color-bobacolor7: #00ff7e;
+  --color-bobacolor8: #3d8d97;
+  --color-bobacolor9: #ba01ff;
+  --color-bobacolor10: #ba01ff;
+
+  --font-australian: "Australian", sans-serif;
+  --font-bobaland: "Bobaland", sans-serif;
+  --font-geistMono: "Geist Mono", monospace;
+  --font-geistSans: "Geist", sans-serif;
+  --font-impact: "Impact", sans-serif;
+
+  --breakpoint-xs: 512px;
+}
+
 @font-face {
   font-family: "Australian";
   src: url("./fonts/australian.otf") format("opentype");
@@ -33,9 +58,31 @@
   font-style: normal;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-bobacolor1: #ad0082;
+  --color-bobacolor2: #ff51ed;
+  --color-bobacolor3: #732daf;
+  --color-bobacolor4: #a800ff;
+  --color-bobacolor5: #00a569;
+  --color-bobacolor6: #ff00a8;
+  --color-bobacolor7: #00ff7e;
+  --color-bobacolor8: #3d8d97;
+  --color-bobacolor9: #ba01ff;
+  --color-bobacolor10: #ba01ff;
+
+  --font-australian: "Australian", sans-serif;
+  --font-bobaland: "Bobaland", sans-serif;
+  --font-geistMono: "Geist Mono", monospace;
+  --font-geistSans: "Geist", sans-serif;
+  --font-impact: "Impact", sans-serif;
+
+  --breakpoint-xs: 512px;
+}
+
 
 :root {
   --background: #ffffff;
