@@ -6,71 +6,62 @@
 
 ## Maintenance by Prof. NOTA Evergreen Standard
 
-This repo is intended to stay evergreen while remaining production-safe.
+This repo is a **Live Artefact App**: the user-facing UX is intentionally frozen
+("MINT CLOSED", no wallet prompts), while the codebase remains buildable and
+production-safe on Vercel.
 
 ### Runtime
 
-- Node: **24.x** (see `.nvmrc` and `package.json#engines`)
+- Node: **24.x** (local + Vercel)
+- Package manager: **NPM** (lockfile: `package-lock.json`)
+- Deploy target: **Vercel**
 
-  - ~~example alternatives: 22.x / 20.x (adjust if platform requires)~~
+### Build System
 
-- Package manager:
-
-  - **NPM** (lockfile: `package-lock.json`)
-  - ~~Yarn (lockfile: `yarn.lock`)~~
-  - ~~PNPM (lockfile: `pnpm-lock.yaml`)~~
-
-- Deploy target:
-
-  - **Vercel**
-  - ~~Netlify~~
-  - ~~Self-hosted / Docker~~
-  - ~~Other platform (document explicitly)~~
+- Next.js **16** (App Router)
 
 ### Monthly Safe Updates (recommended)
 
-1. Check what’s outdated:
+Monthly is **monitor + verify**, not modernization.
+
+1. Check what’s outdated (report only):
 
    - `npm outdated`
-   - ~~yarn outdated~~
-   - ~~pnpm outdated~~
 
-2. Upgrade safe (patch/minor) versions:
-
-   - `npm update`
-   - ~~yarn upgrade~~
-   - ~~pnpm update~~
-   - or upgrade specific packages shown as non-major
-
-3. Verify:
+2. Security report (report only unless explicitly approved):
 
    - `npm audit --audit-level=moderate`
-   - ~~yarn audit~~
-   - ~~pnpm audit~~
+
+3. Verify build reproducibility:
+
    - `npm run build`
-   - ~~yarn build~~
-   - ~~pnpm build~~
 
-4. Deploy:
+4. Verify production sanity:
 
-   - **Vercel auto-deploy from `main`**
-   - ~~manual deploy according to platform workflow~~
+   - Confirm artefact UX is unchanged
+   - Confirm no critical console errors
 
 ### Major Updates (quarterly / scheduled)
 
-Major upgrades (framework, runtime, or core tooling) must be done one at a time, with a dedicated PR and full testing.
+Major upgrades must be done **one at a time**, with a dedicated PR and full testing.
+Artefact UX must remain unchanged.
 
 Examples:
 
-- Node major version
 - Next.js / React major version
+- Solana/web3 stack major version
 - Tailwind CSS major version
-- Package manager major version
+- Node major policy change
+
+### Artefact UX Policy (Frozen)
+
+- Minting must remain **disabled**
+- Wallet connect must remain **disabled**
+- Any functional change requires a versioned successor (new tag/release)
 
 ---
 
 ---
-
 ## Usage
 
 ### Install dependencies
