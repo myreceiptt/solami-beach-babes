@@ -17,7 +17,7 @@
     "@solana/wallet-adapter-react": "^0.15.39",
     "@solana/wallet-adapter-react-ui": "^0.9.39",
     "@solana/web3.js": "^1.98.4",
-    "next": "^16.1.0",
+    "next": "^16.1.1",
     "react": "^19.2.3",
     "react-dom": "^19.2.3"
   },
@@ -27,7 +27,7 @@
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "eslint": "^9.39.2",
-    "eslint-config-next": "^16.1.0",
+    "eslint-config-next": "^16.1.1",
     "postcss": "^8",
     "tailwindcss": "^4.1.18",
     "typescript": "^5.9.3"
