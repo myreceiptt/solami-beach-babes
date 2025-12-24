@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint \"app/**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
     "@project-serum/anchor": "^0.26.0",
@@ -23,13 +23,20 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.18",
-    "@types/node": "^25.0.3",
+    "@types/node": "24.0.0",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "eslint": "^9.39.2",
-    "eslint-config-next": "^16.1.1",
     "postcss": "^8",
     "tailwindcss": "^4.1.18",
-    "typescript": "^5.9.3"
-  }
+    "typescript": "^5.9.3",
+    "@eslint/js": "^9.0.0",
+    "globals": "^15.0.0",
+    "@typescript-eslint/parser": "^8.0.0"
+  },
+  "engines": {
+    "node": "24.x",
+    "npm": "11.x"
+  },
+  "packageManager": "npm@11.7.0"
 }

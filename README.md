@@ -12,8 +12,8 @@ production-safe on Vercel.
 
 ### Runtime
 
-- Node: **24.x** (local + Vercel)
-- Package manager: **NPM** (lockfile: `package-lock.json`)
+- Node: **24.x** (local + Vercel, see `.nvmrc` and `package.json#engines`)
+- Package manager: **NPM** (lockfile: `package-lock.json`) (lockfile: `package-lock.json`)
 - Deploy target: **Vercel**
 
 ### Build System
@@ -34,6 +34,7 @@ Monthly is **monitor + verify**, not modernization.
 
 3. Verify build reproducibility:
 
+   - `npm run lint`
    - `npm run build`
 
 4. Verify production sanity:
@@ -61,8 +62,8 @@ Examples:
 
 Known pinned security advisories (no non-breaking fix):
 
-- bigint-buffer via `@solana/spl-token`
-- node-fetch via `@solana/spl-token-registry`
+- bigint-buffer via `@solana/spl-token` (requires major downgrade)
+- node-fetch via `@solana/spl-token-registry` (requires major downgrade)
 
 ---
 
@@ -73,43 +74,43 @@ Known pinned security advisories (no non-breaking fix):
 ### Install dependencies
 
 ```bash
-yarn
+npm install
 ```
 
 ### Check outdated dependencies
 
 ```bash
-yarn outdated
+npm outdated
 ```
 
 ### Upgrade dependencies interactively
 
 ```bash
-yarn upgrade-interactive --latest
+npm update
 ```
 
 ### Start development server
 
 ```bash
-yarn dev
+npm run dev
 ```
 
 ### Check all the code
 
 ```bash
-yarn run lint
+npm run lint
 ```
 
 ### Create a production build
 
 ```bash
-yarn build
+npm run build
 ```
 
 ### Preview the production build
 
 ```bash
-yarn start
+npm run start
 ```
 
 ## Resources
