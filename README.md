@@ -12,8 +12,8 @@ production-safe on Vercel.
 
 ### Runtime
 
-- Node: **24.x** (local + Vercel, see `.nvmrc` and `package.json#engines`)
-- Package manager: **NPM** (lockfile: `package-lock.json`) (lockfile: `package-lock.json`)
+- Node: **24.x** (local + Vercel)
+- Package manager: **NPM** (lockfile: `package-lock.json`)
 - Deploy target: **Vercel**
 
 ### Build System
@@ -39,7 +39,8 @@ Monthly is **monitor + verify**, not modernization.
 
 4. Verify production sanity:
 
-   - Confirm artefact UX is unchanged
+   - Confirm "MINT CLOSED"
+   - Confirm no wallet prompts / connect flows
    - Confirm no critical console errors
 
 ### Major Updates (quarterly / scheduled)
@@ -60,14 +61,14 @@ Examples:
 - Wallet connect must remain **disabled**
 - Any functional change requires a versioned successor (new tag/release)
 
+---
+
+---
+
 Known pinned security advisories (no non-breaking fix):
 
 - bigint-buffer via `@solana/spl-token` (requires major downgrade)
 - node-fetch via `@solana/spl-token-registry` (requires major downgrade)
-
----
-
----
 
 ## Usage
 
