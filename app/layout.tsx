@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import WalletConnect from "./components/walletadapter";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://solami.endhonesa.com"),
@@ -44,7 +43,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="font-bobaland antialiased">
         <div className="min-h-screen bg-bobacolor4 relative flex flex-col">
-          <WalletConnect>{children}</WalletConnect>
+          {children}
         </div>
       </body>
     </html>

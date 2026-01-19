@@ -1,8 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
-import WalletBalance from "./balance";
 
 export default function Token() {
   return (
@@ -17,12 +15,6 @@ export default function Token() {
           <h3 className="text-bobacolor10 text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-center uppercase font-impact">
             $BABEJUICE
           </h3>
-
-          <div className="rounded">
-            <WalletMultiButton style={{}} />
-          </div>
-
-          <WalletBalance />
 
           <Image
             unoptimized
