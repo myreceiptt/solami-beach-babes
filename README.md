@@ -1,8 +1,39 @@
-# FUCK YOU MOTHER FUCKERS
+# SOLAMI BEACH BABES
 
 ---
 
 ---
+
+## About This Repo
+
+`solami-beach-babes` is a published landing-page artefact for an unreleased Solana NFT project. The site remains live as a historical snapshot: minting and wallet flows are intentionally disabled, and the codebase is maintained only to stay buildable and deployable.
+
+### Purpose & Scope
+
+- Preserve a public landing page for the project and its narrative.
+- Keep the UX frozen (“MINT CLOSED”, no wallet prompts, no transaction flows).
+- Ensure long-term deployment stability (fast, minimal, production-safe).
+
+### Blockchain
+
+- Intended chain: **Solana**
+- Status: unreleased; the on-chain mint did not launch after the landing page was published.
+
+### Technology
+
+- Framework: **Next.js** (App Router) + **React**
+- Styling: **Tailwind CSS**
+- Tooling: **npm**, **ESLint**, **TypeScript**
+- Deployment: **Vercel**
+
+### How We Maintain Quality
+
+- We follow **Prof. NOTA Evergreen Standard** while keeping artefact behavior unchanged.
+- We validate changes with audit + lint + build, and document runs under `EVERGREENING/completion-log-*.md`.
+
+### Context (Project Story)
+
+This project was originally planned as a Solana NFT release. After the landing page went live, the co-founder, that is the main developer disappeared without clear communication, and the mint never launched. The current maintenance goal is preservation and operational stability, not feature expansion.
 
 ## Maintenance by Prof. NOTA Evergreen Standard
 
@@ -65,11 +96,6 @@ Examples:
 
 ---
 
-Known pinned security advisories (no non-breaking fix):
-
-- bigint-buffer via `@solana/spl-token` (requires major downgrade)
-- node-fetch via `@solana/spl-token-registry` (requires major downgrade)
-
 ## Usage
 
 ### Install dependencies
@@ -111,7 +137,7 @@ npm run build
 ### Preview the production build
 
 ```bash
-npm run start
+npm start
 ```
 
 ## Resources
